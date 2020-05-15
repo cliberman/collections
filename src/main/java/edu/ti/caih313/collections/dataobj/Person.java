@@ -1,5 +1,8 @@
 package edu.ti.caih313.collections.dataobj;
 
+import java.lang.*;
+import java.util.Comparator;
+
 public class Person {
     private Name name;
     private Gender gender;
@@ -51,3 +54,4 @@ public class Person {
                 '}';
     }
 }
+
