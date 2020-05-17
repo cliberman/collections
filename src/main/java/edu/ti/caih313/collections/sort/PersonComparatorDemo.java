@@ -116,6 +116,11 @@ public class PersonComparatorDemo {
             }
         };
 
+        Collections.sort(personList,compareAgeGenderName);
+        System.out.print("\n");
+        System.out.println("Print sorted by age, gender, and name personList.");
+        personSortableDemo.printCollection(personList);
+
 
 //        Collections.sort(personList, nameByFirstListComparator);
 //        System.out.print("\n");
@@ -130,9 +135,6 @@ public class PersonComparatorDemo {
 //        System.out.println("Print sorted by gender personList.");
 //        personSortableDemo.printCollection(personList);
 
-        Collections.sort(personList,compareAgeGenderName);
-        System.out.print("\n");
-        System.out.println("Print sorted by age, gender, and name personList.");
-        personSortableDemo.printCollection(personList);
+
     }
 }
